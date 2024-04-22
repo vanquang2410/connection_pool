@@ -1,0 +1,14 @@
+CREATE TABLE account_bank (
+    account_number BIGINT PRIMARY KEY,
+    balance DOUBLE,
+    name VARCHAR(255)
+);
+
+CREATE TABLE transaction_history (
+    id BIGINT PRIMARY KEY,
+    account_number_transfer BIGINT,
+    account_number_receive BIGINT,
+    amount DOUBLE,
+    transaction_date DATETIME
+);
+
