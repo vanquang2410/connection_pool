@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.*;
 @RestController()
 @RequestMapping("/api/account")
 public class AccountBankController {
-        @Autowired
-        private AccountBankServiceImpl accountBankService;
+    @Autowired
+    private AccountBankServiceImpl accountBankService;
 
     @GetMapping("/{id}")
     public AccountBank getInfo(@PathVariable Long id){

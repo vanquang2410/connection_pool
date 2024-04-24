@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.sql.SQLException;
 
-@RestController()
+@RestController
 @RequestMapping("/api/transaction")
 public class TransactionController {
     @Autowired

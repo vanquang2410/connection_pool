@@ -8,7 +8,7 @@ import org.springframework.format.annotation.DateTimeFormat;
 
 @NoArgsConstructor
 @AllArgsConstructor
-@Getter
+@Getter 
 @Setter
 public class TransactionHistory{
     private Long id ;

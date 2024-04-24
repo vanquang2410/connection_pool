@@ -7,7 +7,6 @@ import java.sql.SQLException;
 public interface AccountBankDAO {
      AccountBank getInfo(Long id);
 
-     void deposit(Long id ,double amount) throws SQLException;
 
-     void withdraw(Long id, double amount);
+     void transaction(Long accountNumberTransfer, Long accountNumberRecieve, double amount) throws SQLException;
 }
